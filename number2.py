@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+minn = input('請輸入範圍最小值')
+maxx = input('請輸入範圍最大值')
+minn = int(minn)
+maxx = int(maxx)
+r = random.randint(minn,maxx)
 count = 0
 while True:
 	count = count+1 #簡寫: count += 1
